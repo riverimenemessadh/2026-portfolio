@@ -1,0 +1,150 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 329px;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  min-width: 0;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+}
+
+.mockupImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+  display: block;
+  transition: transform var(--transition-default);
+}
+
+.thumbnail:hover .mockupImg {
+  transform: scale(1.04);
+}
+
+.thumbnail:active .mockupImg {
+  transform: scale(0.98);
+}
+
+.detailCard {
+  width: 100%;
+  height: 273px;
+  background: var(--color-surface);
+  border-radius: 0 0 var(--radius-card) var(--radius-card);
+  padding: 28px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.title {
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  flex-shrink: 0;
+}
+
+.description {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text-secondary);
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  scrollbar-width: none;
+}
+
+.description::-webkit-scrollbar {
+  display: none;
+}
+
+.pillsWrapper {
+  width: 100%;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.pillsRow {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  overflow-x: scroll;
+  width: 100%;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+  cursor: default;
+}
+
+.pillsRow::-webkit-scrollbar {
+  display: none;
+}
+
+.linksRow {
+  display: flex;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--font-size-nav-link);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color var(--transition-default), transform var(--transition-default);
+}
+
+.link:hover {
+  color: var(--color-primary);
+}
+
+.link:active {
+  transform: scale(0.96);
+}
+
+/* iPad */
+@media (max-width: 1024px) {
+  .thumbnail {
+    height: 220px;
+  }
+
+  .detailCard {
+    height: 273px;
+    padding: 20px 32px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .thumbnail {
+    height: 200px;
+  }
+
+  .detailCard {
+    height: 260px;
+    padding: 16px 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mockupImg,
+  .link {
+    transition: none;
+  }
+}

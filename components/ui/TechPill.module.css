@@ -1,0 +1,46 @@
+.pill {
+  min-width: 99px;
+  height: 35px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 10px;
+  border: 0.5px solid var(--color-text-primary);
+  border-radius: var(--radius-pill);
+  background: none;
+  cursor: default;
+  transition: transform var(--transition-default), background var(--transition-default);
+}
+
+@media (hover: hover) {
+  .pill:hover {
+    transform: scale(1.01);
+    background: color-mix(in srgb, var(--color-primary) 8%, transparent);
+  }
+}
+
+.pill:active {
+  transform: scale(0.9);
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.name {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pill {
+    transition: none;
+  }
+}

@@ -1,0 +1,60 @@
+.stackIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transition: transform var(--transition-default);
+}
+
+.stackIcon:hover {
+  transform: scale(1.08);
+}
+
+.stackIcon:active {
+  transform: scale(0.96);
+}
+
+.iconBox {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.label {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text-primary);
+  text-align: center;
+}
+
+/* iPad */
+@media (max-width: 1024px) {
+  .iconBox {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .iconBox {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stackIcon {
+    transition: none;
+  }
+}

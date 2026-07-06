@@ -1,0 +1,105 @@
+.about {
+  width: 100%;
+  scroll-margin-top: 64px;
+  background: var(--color-background);
+  padding: 95px 120px 0;
+}
+
+.block {
+  margin-bottom: 48px;
+}
+
+.block:last-child {
+  margin-bottom: 0;
+}
+
+.heading {
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: var(--font-size-subtitle);
+  line-height: var(--line-height-subtitle);
+  color: var(--color-text-secondary);
+  margin-bottom: 25px;
+}
+
+.availability {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-primary);
+  margin-bottom: 18px;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background: var(--color-text-primary);
+}
+
+.entry {
+  margin-bottom: 0;
+}
+
+.role {
+  font-size: var(--font-size-subtitle);
+  line-height: var(--line-height-subtitle);
+  color: var(--color-text-secondary);
+  margin-bottom: 0;
+}
+
+.columnsRow {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 24px;
+  row-gap: 18px;
+  margin-bottom: 18px;
+}
+
+.leftColumn,
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.rowItem {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+}
+
+.icon {
+  color: var(--color-text-secondary);
+  flex-shrink: 0;
+  width: 22px;
+}
+
+/* iPad and below — single column layout */
+@media (max-width: 1024px) {
+  .about {
+    padding: 95px 64px 0;
+  }
+
+  .columnsRow {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .about {
+    padding: 64px 32px 0;
+  }
+}
