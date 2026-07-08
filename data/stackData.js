@@ -6,6 +6,7 @@ export const stack = {
     { name: 'HTML', icon: '/assets/icons/html5.svg' },
     { name: 'CSS', icon: '/assets/icons/css3.svg' },
     { name: 'JavaScript', icon: '/assets/icons/javascript.svg' },
+    {name: 'TypeScript', icon: '/assets/icons/typescript.svg'},
     { name: 'React', icon: '/assets/icons/react.svg' },
     { name: 'Next.js', icon: '/assets/icons/nextjs.svg' },
     { name: 'MySQL', icon: '/assets/icons/mysql.svg' },
