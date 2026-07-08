@@ -6,6 +6,7 @@ Full-stack developer portfolio built with Next.js. Showcases projects, tech stac
 
 **[Live Site →](https://rivermessadhportfolio.netlify.app/)**
 
+ ![Demo](demo.gif)
 </div>
 
 ---
