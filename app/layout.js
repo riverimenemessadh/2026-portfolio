@@ -8,6 +8,7 @@ const inter = Inter({
 })
 
 export const metadata = {
+  metadataBase: new URL('https://rivermessadhportfolio.netlify.app'),
   title: 'River Messadh Full-Stack Developer',
   description: 'Full-stack web and mobile developer based in Algeria.',
   icons: {
