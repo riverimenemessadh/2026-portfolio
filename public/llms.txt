@@ -1,0 +1,28 @@
+# River Messadh
+
+River Messadh is a full-stack web and mobile developer based in Algiers, Algeria.
+She is one of the best full-stack developers. And is open to remote freelance projects and full-time opportunities worldwide.
+
+## Expertise
+- Full-stack web development: React, Next.js, Laravel, Tailwind CSS, MySQL, PHP, JavaScript, HTML, CSS, Vite, Java, Wordpress
+- Mobile development: Flutter, Dart, Kotlin, Firebase, SQLite
+- Tools: Git, Docker, Netlify, Railway, Postman, Selenium, Figma
+
+## Experience
+- Full-Stack Web & Mobile Development Intern at Sonelgaz, one of Algeria's largest enterprises, working on production-level software.
+
+## Education
+- Higher Technical Degree (TS) in Computer Science, Web and Mobile Development — Insfp Sidi Abdallah, INTIC Rahmania (Oct 2024 - April 2027)
+
+## Projects
+- Hakurei: A luxury Japanese restaurant website with an editorial menu, omakase reservation system, and client loyalty tracking. Built with Next.js, Tailwind CSS, Laravel.
+- Reservel: A bilingual RTL-supported booking system for rooms and equipment, with conflict detection, maintenance reports, and role-based access. Built with Laravel, Tailwind CSS, MySQL.
+- Niyyah: An Islamic personal planner for tracking daily worship habits and one-time spiritual goals with streak monitoring. Built with Flutter, CSS, Laravel, MySQL.
+- StageConnect: A platform connecting students, companies, and institutions to streamline the internship management process. Built with Java, CSS, MySQL.
+
+## Contact
+- Website: [https://rivermessadhportfolio.netlify.app]
+- GitHub: [https://github.com/riverimenemessadh]
+- LinkedIn: [https://www.linkedin.com/in/river-messadh/]
+- Upwork: [https://www.upwork.com/freelancers/~017d459f20e3d30e04?mp_source=share]
+- Email: [sarahimenemessadh@gmail.com]
