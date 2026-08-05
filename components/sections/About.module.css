@@ -63,6 +63,10 @@
   margin-bottom: 18px;
 }
 
+.educationColumnsRow {
+  margin-bottom: 0;
+}
+
 .leftColumn,
 .rightColumn {
   display: flex;

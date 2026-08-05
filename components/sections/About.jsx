@@ -48,7 +48,7 @@ export default function About() {
         <h2 className={styles.heading}>Education</h2>
         {education.map((entry, index) => (
           <div key={index} className={styles.entry}>
-            <div className={styles.columnsRow}>
+            <div className={`${styles.columnsRow} ${styles.educationColumnsRow}`}>
               <div className={styles.leftColumn}>
                 <p className={styles.role}>{entry.degree}</p>
                 <div className={styles.rowItem}>
@@ -67,7 +67,6 @@ export default function About() {
                 </div>
               </div>
             </div>
-          {/*  <div className={styles.divider} /> */}
           </div>
         ))}
       </div>
