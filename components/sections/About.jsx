@@ -67,7 +67,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className={styles.divider} />
+          {/*  <div className={styles.divider} /> */}
           </div>
         ))}
       </div>
