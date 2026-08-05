@@ -10,7 +10,7 @@ export const projects = [
       { name: 'MySQL', icon: '/assets/icons/mysql.svg' },
     ],
     github: 'https://github.com/riverimenemessadh/hakurei',
-    demo: null, // no demo — link will not render
+    demo: null, // no demo
     mockup: '/assets/images/hakurei-mockup.png',
     screenshots: [
       '/assets/screenshots/hakurei-1.png',
@@ -51,7 +51,7 @@ export const projects = [
       { name: 'MySQL', icon: '/assets/icons/mysql.svg' },
     ],
     github: 'https://github.com/riverimenemessadh/reservel',
-    demo: 'https://web-production-75d56.up.railway.app/login',
+    demo: null, // no demo 
     mockup: '/assets/images/reservel-mockup.png',
     screenshots: [
       '/assets/screenshots/reservel-1.png',
@@ -102,7 +102,7 @@ export const projects = [
       { name: 'MySQL', icon: '/assets/icons/mysql.svg' },
     ],
     github: 'https://github.com/riverimenemessadh/niyyah',
-    demo: null, // no demo — link will not render
+    demo: null, // 
     mockup: '/assets/images/niyyah-mockup.png',
     screenshots: [
       '/assets/screenshots/niyyah-1.png',
@@ -141,7 +141,7 @@ export const projects = [
       { name: 'MySQL', icon: '/assets/icons/mysql.svg' },
     ],
     github: 'https://github.com/riverimenemessadh/stageconnect',
-    demo: null, // no demo — link will not render
+    demo: null, // no demo
     mockup: '/assets/images/stageconnect-mockup.png',
     screenshots: [
       '/assets/screenshots/stageconnect-1.png',

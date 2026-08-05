@@ -15,7 +15,7 @@ export default function Contact() {
       <h2 className={styles.heading}>Contact</h2>
       <p className={styles.subtitle}>Have a project or opportunity in mind? Get in touch.</p>
 
-      <ContactForm />
+      {/* <ContactForm /> */}
 
       <div className={styles.socialRow}>
         {footerIcons.map((item) => {
